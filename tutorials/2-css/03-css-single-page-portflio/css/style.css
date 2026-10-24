@@ -1,0 +1,39 @@
+/* CSS resets  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* respect user font size perferences */
+html {
+    font-size: 100%;
+}
+
+
+/* General CSS */
+
+body {
+    background-color: #f7ede2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+header {
+    /* background-image: url("../images-portflio/lunar-logo-1280.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 7rem;
+    margin-bottom: 4rem;
+    /* background-color: #f28482;
+    color: #f7ede2; */
+    /* background: #F7EDE2;
+    background: radial-gradient(circle, rgba(247, 237, 226, 1) 0%, rgba(245, 202, 195, 1) 100%); */
+    border-bottom: #84a59d 10px solid;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+}
