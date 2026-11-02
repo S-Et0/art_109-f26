@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Have Been Identified</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+
+    <header>
+      <p>IDENTITY VERIFICATION SYSTEM v2.6</p>
+    </header>
+
+    <!-- Welcome -->
+    <section id="welcome">
+      <h1>WHO ARE YOU?</h1>
+      <p>
+        Answer five questions to discover your
+        true digital identity.
+      </p>
+      <button id="start-btn">Begin Assessment</button>
+    </section>
+
+    <!-- Questionnaire -->
+    <section id="quiz" hidden>
+      <p id="progress"></p>
+      <h2 id="question"></h2>
+      <div id="answers"></div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" hidden>
+      <p>ASSESSMENT COMPLETE</p>
+      <h2 id="identity"></h2>
+      <p id="description"></p>
+      <p>Classification Confidence: 98.7%</p>
+      <button id="restart-btn">Restart</button>
+    </section>
+
+  </main>
+</body>
+</html>
